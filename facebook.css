@@ -1,0 +1,108 @@
+body{
+    background-color: rgba(243, 243, 248, 0.953);
+}
+
+.align{
+    display: flex;
+    justify-items: center;
+}
+
+.log{
+    border: 1px inherit ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+}
+body{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.left{
+    
+    margin-top: 195px;
+    line-height: 30px;
+    margin-left:50px;
+    margin-right: 150px;
+    
+}
+#fimg{
+    height: 106px;
+    margin: -28px;
+}
+
+h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+        line-height: 28px;
+        width: auto;
+        font-weight: lighter;
+        margin-top: 8px;
+    }
+.right{
+    margin-top: 110px;
+    margin-left: -80px;
+}
+#box{
+    height: 40px;
+    width: 360px;
+    padding: 5px;
+    font-size: 17px;
+    padding-left: 15px;
+    border-radius: 8px;
+    border-style: outset ;
+    border: 1px solid rgb(220, 217, 217);
+}
+hr{
+    color: rgb(220, 217, 217) ;
+}
+#login{
+    height: 50px;
+    width: 382px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(12, 116, 234);
+    color: white;
+    border: 0px solid;
+    border-radius: 8px;
+}
+#new{
+    height: 50px;
+    width: 200px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(3, 134, 3);
+    color: white;
+    border: 0px solid;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.create{
+    text-align: center;
+    margin-top: 20px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#fp{
+    color: rgb(12, 116, 234);
+    font-size: 15px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+a{
+    color: black;
+    font-weight: bold;
+
+}

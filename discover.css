@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(0, 0, 26);
+}
+.heading{
+    color: white;
+    font-size: 60px;
+    padding-left: 100px;
+}
+.first{
+    display: flex;
+    position: relative;
+}
+.headphoto{
+    margin-left: 850px;
+    position: absolute;
+
+    
+}
+#photo1{
+    height: 700px;
+    width: 250px;
+    border-radius: 200px;
+    position: absolute;
+    top: -280px;
+    padding-top: 100px;
+}
+#photo2{
+    height: 700px;
+    width: 250px;
+    border-radius: 200px;
+    margin-left: 50px;
+    position: absolute;
+    top: -280px;
+    left: 250px;
+    padding-top: 100px;
+}
+#paragraph{
+    color: white;
+    font-size: 35px;
+    padding-left: 100px;
+}
+#explore{
+    margin-left: 100px;
+    width: 240px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 0px solid;
+    margin-top: 20px;
+}
+#photo3{
+    margin-left: 100px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.second{
+    display: flex;
+}
+.rightpara{
+    color: white;
+    margin-left: 80px;
+    border-top:10px solid white ;
+    top: 50px;
+    margin-top: 160px;
+    
+  
+}
+h2{
+    font-size: 50px;
+}
+#size{
+    font-size: 22px;
+}
+.image{
+    margin-left: 100px;
+    margin-top: 50px;
+    
+
+}
+#img2{
+    margin-left: 20px;
+    border-radius: 8px;
+}
+#img3{
+    margin-left: 20px;
+    border-radius: 8px;
+}
+#img1{
+    border-radius: 8px;
+}

@@ -1,0 +1,25 @@
+.full{
+    border: 5px solid black;
+    height: 700px;
+    background-image: url(https://wallpapers.com/images/featured/abdul-kalam-hd-nf5zqkjs1z6wisq5.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    color: white;
+}
+h1{
+    font-family: serif;
+    padding-left: 750px;
+    font-size: 70px;
+    padding-top: 100px;
+}
+h4{
+    font-size: 40px;
+    padding-left: 1000px;
+}
+
+h2{
+    padding-left: 750px;
+    font-size: 40px;
+    padding-top: 140px;
+}

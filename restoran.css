@@ -1,0 +1,111 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.restoran{
+    background-image:linear-gradient(rgba(21, 32, 48,93%), rgba(21, 32, 48, 93%)), url(restoran1.jpg);
+    height:100vh;
+    width: 85%;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#logo{
+    color:rgb(219, 127, 13) ;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: system-ui;
+    margin-left: -5px;
+}
+.nav{
+    margin-top: 15px;
+    margin-left: 150px;
+}
+a{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: system-ui;
+    padding-left: 20px;
+    
+}
+a:hover{
+    color:rgb(219, 127, 13) ;
+}
+#bookatable{
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    background-color:rgb(219, 127, 13) ;
+    border: 0px solid;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius:4px;
+}
+.first{
+    display: flex;
+
+}
+
+.heading{
+    margin-left: 30px;
+    animation-name: left;
+    animation-duration: 2s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes left{
+    from {left: -400px;}
+    to {left: 0px;}
+}
+#heading1{
+    font-family:system-ui;
+    font-size: 70px;
+    margin-top: 150px;
+    color: white;
+}
+#discription{
+    color: white;
+    font-size: 15px;
+    font-family:system-ui;
+    margin-top: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    
+}
+#buttonforbooking{
+    margin-top: 30px;
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(219, 127, 13);
+    color: white;
+    border: 0px solid;
+    border-radius:4px;
+}
+.imgrotate{
+    margin-left:70px;
+    margin-top: 70px;
+    animation-name: rotate;
+    animation-duration:50s;
+    animation-timing-function:linear;
+
+}
+@keyframes rotate{
+      0% {transform: rotate(0deg);}
+      50% {transform: rotate(180deg);}
+      100% {transform: rotate(360deg);}
+}

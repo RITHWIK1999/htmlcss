@@ -1,0 +1,33 @@
+.left{
+    display: flex;
+}
+.font{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+h1{
+    font-size: 100px;
+    line-height: 50px;
+}
+#img1{
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 90px;
+    position: relative;
+}
+#img2{
+    border-radius: 50%;
+    position: absolute;
+    top: 420px;
+    left: 1100px;
+}
+p{
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: system-ui;
+   
+}
+#explore{
+    height: 50px;
+    width: 150px;
+}

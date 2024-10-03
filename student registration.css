@@ -1,0 +1,52 @@
+h1{
+    color: red;
+    font-weight: bold;
+    font-family: system-ui;
+}
+.form{
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+#fn{
+    margin-left: 100px;
+}
+#ln{
+    margin-left: 100px;
+}
+#email{
+    margin-left: 130px;
+}
+#gen{
+    margin-left: 120px;
+}
+#cs{
+    margin-left: 60px;
+}
+#comment{
+    margin-left: 100px;
+    color: red;
+    height: 100px;
+}
+#city{
+    margin-left: 140px;
+    color: red;
+}
+#reset{
+    margin-left: 170px;
+    height: 30px;
+    width: 100px;
+    
+}
+body{
+    background-color: plum;
+}
+#submit{
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    
+}

@@ -1,0 +1,19 @@
+ <h2><b>Credit Card Details</b></h2>
+        <h4>Credit Card Type :</h4>
+        <form>
+            <input type="radio">
+            <label
+                for="">Mastercard</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">Card Name :</label>
+            <input type="text"><br>
+            <input type="radio">
+            <label
+                for="">Visa</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">Expiry Date :</label>
+            <input type="text"><br>
+            <input type="radio">
+            <label for="">American Express</label><br>
+            <input type="radio">
+            <label for="">Diner Club</label><br>
+        </form>
+        <br><br><br>

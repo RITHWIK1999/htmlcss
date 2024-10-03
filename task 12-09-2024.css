@@ -1,0 +1,269 @@
+body{
+    background-color: rgb(255, 153, 153);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 60px;
+  
+}
+
+.hole{
+    height: 625.5px;
+    width: 1400px;
+    background-color: rgb(179, 177, 175);
+    font-family: system-ui;
+
+}
+.nav{
+    display: flex;
+    background-color: white;
+    position: relative;
+    
+}
+.brand{
+    background-color:  rgb(155, 17, 30);
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+ 
+}
+input{
+    height: 36px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 10px;  
+    padding-left: 10px;
+    position: relative;
+    border: 0px solid;
+    background-color: rgb(212, 210, 210);
+    color: black;
+    font-weight: bolder;
+}
+#searchbutton{
+    position: absolute;
+    top: 25px;
+    text-align: center;
+    right: 500px;
+    padding-top: 5px;
+    border: 0px;
+    background-color: rgb(212, 210, 210)
+}
+#addnew{
+    margin-left: 200px;
+    height: 35px;
+    text-align: center;
+    background-color: rgb(155, 17, 30);
+    color: white;
+    font-weight: bolder;
+    border: 0px solid;
+    padding: 10px;
+    position: relative;
+    margin-top: 25px;
+    
+}
+#notification{
+    position: absolute;
+    top: 20px;
+    left: 1220px;
+
+}
+
+.down{
+    display: flex;
+}
+.left{
+    background-color: rgb(155, 17, 30);
+    text-align: left;
+    height:540px;
+    width: 300px;
+    }
+a{
+    line-height: 60px;
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+    padding-left: 60px;
+}  
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    font-size: 40px;
+    color:black;
+}
+h2{
+    background-color: white;
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(155, 17, 30);
+}  
+#box1{
+    height: 130px;
+    width:200px;
+    background-color: white;
+    padding-left: 20px;
+    display: flex;
+    position: relative;
+    border: 1px inherit ;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+}
+.s2{
+    position: absolute;
+    top: 30px;
+    left: 140px;
+}
+#box2{
+    height: 130px;
+    width:200px;
+    background-color: white;
+    padding-left:20px;
+    display: flex;
+    position: relative;
+    border: 1px inherit ;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+}
+.s4{
+    position: absolute;
+    top: 30px;
+    left: 130px;
+}
+#box3{
+    height: 130px;
+    width:200px;
+    background-color: white;
+    padding-left:20px;
+    display: flex;
+    position: relative;
+    border: 1px inherit ;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+}
+.s6{
+    position: absolute;
+    top: 30px;
+    left: 130px; 
+}
+#box4{
+    height: 130px;
+    width:200px;
+    background-color: white;
+    padding-left:20px;
+    display: flex;
+    position: relative;
+    border: 1px inherit ;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+}
+.s8{
+    position: absolute;
+    top: 30px;
+    left: 140px; 
+}
+.box{
+    display: flex;
+    gap: 37px;
+    padding-left: 60px;
+    padding-top: 30px;
+    
+}
+#th1{
+    text-align: left;
+    padding-right: 80px;
+    padding-top: 5px;
+}
+#tr1{
+    text-align: left;
+    padding-right: 80px;
+    padding-top: 5px;
+}
+#td1{
+    text-align: left;
+    padding-right: 85px;
+    padding-top: 5px;
+}
+.table1{
+    background-color: white;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border: outset;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px inherit ;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#th1{
+    border-bottom:2px solid red;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+#tb{
+    margin-left: 200px;
+} 
+.tables{
+    display: flex;
+}            
+#img1{
+    border-radius: 50%;
+}
+.table2{
+    background-color: white;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: outset;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px inherit ;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+}
+#th2{
+    text-align: left;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#tr2{
+    text-align: left;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#td2{
+    text-align: left;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+#th2{
+    border-bottom:2px solid red;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#tb2{
+    margin-left: 20px;
+}
+#img1{
+    margin-left: 120px;
+    position: absolute;
+    top: 20px;
+    
+
+}
+#img2{
+    border-radius: 50%;
+}
+button{
+    background-color: rgb(155, 17, 30);
+    border: 0px solid;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+}
+
+

@@ -1,0 +1,214 @@
+.hole{
+    background-color: white;
+    justify-content:center;
+    align-items: center;
+}
+.main{
+    background-color: rgb(1, 1, 14);
+    margin: 50px;
+    height: 620px;
+    width: 1420px;
+    display: flex;
+    gap: 30px;
+}
+.f1{
+    background-color: rgb(127, 0, 255);
+    height: 275px;
+    border-radius: 8px;
+    width:200px;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+}
+.f2{
+    position: absolute;
+    top: 225px;
+    background-color:rgb(3, 20, 64);
+    height: 275px;
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+#img{
+    border-radius: 100%;
+    padding: 10px;
+    
+}
+
+.tag{
+    padding-top: 169px;
+    line-height: 25px;
+    padding-left: 30px;
+    font-family: system-ui;
+    color:rgb(101, 102, 102);
+}
+a:link{
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+a:hover{
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.first{
+    padding-left: 270px;
+    padding-top:90px;
+}
+
+#fr1{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(3, 20, 64);
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    line-height: 25px;
+
+}
+#fr11{
+    height: 150px;
+    width: 200px;
+    background-color:rgb(255, 112, 52);
+    border-radius: 8px;
+    position: absolute;
+    top: 150px;
+
+}
+#fr2{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(3, 20, 64);
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    line-height: 25px;
+
+}
+#fr22{
+    height: 150px;
+    width: 200px;
+    background-color:rgb(80, 162, 202);
+    border-radius: 8px;
+    position: absolute;
+    top: 150px;
+
+}
+#fr3{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(3, 20, 64);
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    line-height: 25px;
+
+}
+#fr33{
+    height: 150px;
+    width: 200px;
+    background-color:rgb(222, 49, 99);
+    border-radius: 8px;
+    position: absolute;
+    top: 150px;
+
+}
+.firstrow{
+    display: flex;
+    gap: 30px;
+    padding-top: 110px;
+}
+.secondrow{
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+#fr4{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(3, 20, 64);
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    line-height: 25px;
+
+}
+#fr44{
+    height: 150px;
+    width: 200px;
+    background-color:rgb(3, 150, 71);
+    border-radius: 8px;
+    position: absolute;
+    top: 370px;
+
+}
+#fr5{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(3, 20, 64);
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    line-height: 25px;
+
+}
+#fr55{
+    height: 150px;
+    width: 200px;
+    background-color:rgb(143, 22, 229);
+    border-radius: 8px;
+    position: absolute;
+    top: 370px;
+
+}
+#fr6{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(3, 20, 64);
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    line-height: 25px;
+
+}
+#fr66{
+    height: 150px;
+    width: 200px;
+    background-color:rgb(242, 175, 82);
+    border-radius: 8px;
+    position: absolute;
+    top: 370px;
+
+}
+h1{
+    color: white;
+    padding-left: 25px;
+    font-size:45px;
+    margin-top: 15px;
+    
+}
+h3{
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#lastweek{
+    color: white;
+    padding-left: 20px;
+    
+}
+#name{
+    padding-left: 20px;
+    font-size: 30px;
+}
+#report{
+    color: white;
+    padding-left: 20px;
+
+}
+
+    

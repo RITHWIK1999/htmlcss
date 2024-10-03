@@ -1,0 +1,119 @@
+.hole{
+    display: flex;
+    margin-left: 0px;
+}
+.left{
+    display: inline-block;
+    border: 0px solid;
+    height: 710px;
+    width: 600px;
+    background-image: url(https://www.thenorthface.com/content/publish/caas/v1/media/367788/data/4bcd4f0da5f02e76124dd3f9533fcbde/230914-tech-page-ventrix-tech-bgimage-m.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+    
+}
+#front{
+    position: absolute;
+    top:90px;
+    left: 220px;
+    
+}
+#back{
+    position: absolute;
+    top:330px;
+    left:310px;
+}
+
+.right{
+    background-color: white;
+    background-size: cover;
+    width: 1200px;
+    text-align: center;
+    justify-content: center;
+    line-height: 10px;
+    font-family: ui-monospace;
+    font-weight: 800;
+    
+}
+body{
+    background-color: black;
+    
+}
+#cardholder{
+    height: 40px;
+    width: 360px;
+    margin-left: 210px;
+}
+#cardnumber{
+    height: 40px;
+    width: 360px;
+    margin-left: 210px;
+}
+#cardnum{
+    margin-right: 45px;
+}
+
+#exp{
+    margin-right:-376px;
+}
+#number{
+    width: 80px;
+    height: 40px;
+
+}
+.date{
+    display:flex;
+    margin-left: 427px;
+
+}
+.section{
+    display: flex;
+}
+#cvc1{
+    margin-left:-130px;
+
+}
+#cvc2{
+    height: 40px;
+    width: 165px;
+   
+}
+button{
+    width: 365px;
+    height: 50px;
+    margin-left: 207px;
+    border-radius: 5px;
+    border: 0px solid ;
+    background-color: rgba(34, 2, 34, 0.9);
+    color: white;
+    font-size: large;
+    font-weight:bold ;
+    
+}
+input{
+    border-radius: 5px;
+    border: 2px solid rgb(226, 221, 221);
+    font-weight: bold;
+    font-size: medium;
+     
+}
+label{
+    font-size: 15px;
+}
+::placeholder{
+    color:rgb(207, 208, 208);
+    font-family: cursive;
+    padding-left: 20px;
+}
+.entry{
+    margin-top:200px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+
+   
