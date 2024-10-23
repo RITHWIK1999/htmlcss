@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color:black;
+}
+.heading{
+    top: 50px;
+}
+.heading1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+.heading2{
+    font-weight: 500;
+}
+#topimg{
+    background-image: linear-gradient(to top,rgba(white),rgba(white));
+}
+.bloomberg{
+    font-weight: 700;
+    color: rgb(135, 133, 133);
+}
+.forbes{
+    font-family: auto;
+    font-weight: 700;
+    color: rgb(79, 77, 77);
+}
+/* .dis1{
+    font-size: 20px;
+    font-weight: 500;
+} */
+.review{
+    margin-top: 5%;
+}
+.email{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border-top:0px solid;
+    border-bottom:2px solid  black;
+    border-left:0px solid;
+    border-right:0px solid;
+    padding-left: 20px;
+    
+
+}
+
+.subscribe{
+    right: 40px;
+    top: 10px;
+}
+@media screen and (max-width: 550px) {
+    .main{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .navbar{
+        padding-left: 20px;
+    }
+}
+    

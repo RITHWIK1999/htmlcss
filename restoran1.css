@@ -1,0 +1,171 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.restoran{
+    background-image:linear-gradient(rgba(21, 32, 48,93%), rgba(21, 32, 48, 93%)), url(restoran1.jpg);
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-size: 100%;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#logo{
+    flex: 40%;
+    color:rgb(219, 127, 13) ;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: system-ui;
+    margin-left: 50px;
+}
+.nav{
+    flex: 60%;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+a{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: system-ui;
+    padding-left: 20px;
+    
+}
+a:hover{
+    color:rgb(219, 127, 13) ;
+}
+#bookatable{
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    background-color:rgb(219, 127, 13) ;
+    border: 0px solid;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius:4px;
+}
+.first{
+    display: flex;
+
+}
+
+.heading{
+    flex: 50%;
+    margin-left: 30px;
+    animation-name: left;
+    animation-duration: 2s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes left{
+    from {left: -400px;}
+    to {left: 0px;}
+}
+#heading1{
+    font-family:system-ui;
+    font-size: 70px;
+    margin-top: 150px;
+    color: white;
+}
+#discription{
+    color: white;
+    font-size: 15px;
+    font-family:system-ui;
+    margin-top: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    
+}
+#buttonforbooking{
+    margin-top: 30px;
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(219, 127, 13);
+    color: white;
+    border: 0px solid;
+    border-radius:4px;
+}
+.imgrotate img{
+    flex: 50%;
+    margin-left:50px;
+    margin-top: 50px;
+    animation-name: rotate;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+
+}
+ @keyframes rotate{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+} 
+
+
+.nav a{
+    display: inline-block;
+  
+}
+
+@media screen and (max-width: 720px) {
+    #logo{
+        flex: 100%;
+        max-width: 100px;
+      
+    }
+    h1{
+        display: flex;
+        padding: 10px;
+        align-items: center;
+    }
+    .imgrotate img{
+        flex: 100%;
+        max-width: 250px;
+        display: inline-block;
+    }
+    .heading{
+        flex: 100%;
+        max-width: 500px;
+        text-align: center;
+        
+    }
+    #heading1{
+        text-align: center;
+    }
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav a{
+        display: block ;
+    }
+    .first{
+        flex-direction: column;
+    }
+    #discription{
+        text-align: center;
+    }
+    
+  }
+  @media screen and (max-width: 1024px) {
+
+
+  }

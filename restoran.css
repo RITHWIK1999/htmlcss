@@ -1,6 +1,7 @@
 *{
     margin-top: 0;
     margin-bottom: 0;
+    box-sizing: border-box;
 }
 body{
     display: flex;
@@ -19,6 +20,7 @@ body{
     margin-top: 20px;
 }
 #logo{
+    flex: 50%;
     color:rgb(219, 127, 13) ;
     font-size: 25px;
     font-weight: bolder;
@@ -26,6 +28,7 @@ body{
     margin-left: -5px;
 }
 .nav{
+    flex: 50%;
     margin-top: 15px;
     margin-left: 150px;
 }
@@ -60,6 +63,7 @@ a:hover{
 }
 
 .heading{
+    flex: 50%;
     margin-left: 30px;
     animation-name: left;
     animation-duration: 2s;
@@ -97,10 +101,12 @@ a:hover{
     border-radius:4px;
 }
 .imgrotate{
+    flex: 50%;
     margin-left:70px;
     margin-top: 70px;
     animation-name: rotate;
-    animation-duration:50s;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
     animation-timing-function:linear;
 
 }

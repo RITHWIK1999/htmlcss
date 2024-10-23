@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gallaryrow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallarycolumn{
+    flex: 20%;
+    padding: 10px;
+    max-width: 25%;
+}
+.gallarycolumn img {
+    margin-top: 20px;
+    vertical-align: middle;
+  }
+  @media screen and (max-width: 720px) {
+    .gallarycolumn{
+        flex: 50%;
+        max-width: 50%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .gallarycolumn{
+        flex: 100%;
+        max-width: 100%;
+    }
+  }

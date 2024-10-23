@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.business{
+    background-color: rgb(0, 71, 171);
+    width: 100%;
+    padding-bottom: 12%;
+
+}
+.navbar{
+    display: flex;
+    padding-top: 20px;
+}
+
+.logo{
+    flex:20%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150%;
+    margin-left: 80px;
+    margin-right: 60px;
+}
+.nav{
+    flex: 80%;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+a{
+    padding-left: 30px;
+    color: white;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 20px;
+}
+.content{
+    display: flex;
+}
+.heading{
+    flex:50%;
+    margin-left: 80px;
+    margin-top: 10%;
+    margin-right: 80px;
+    
+}
+#heading1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 50px;
+
+}
+#discription{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    margin-top: 30px;
+}
+#getstarted{
+    height: 50px;
+    width: 150px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(0, 71, 171);
+}
+#watch{
+    font-size: 20px; 
+}
+.bluephoto{
+    flex: 50%;
+    margin-top: 6%;
+    
+}
+img{
+    box-shadow: 0 26px 58px 0 rgba(239, 237, 237, 0.22), 0 5px 14px 0 rgba(250, 249, 249, 0.18);
+}
+.buttons{
+    margin-top: 40px;
+}
+.white{
+    display: flex;
+}
+.whitephoto{
+    flex: 50%;
+    margin-top: 12%;
+    margin-left: 80px;
+}
+.whitecontent{
+    flex: 50%;
+    margin-top: 15%;
+}
+h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+#heading2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 42px;
+    margin-top: 3%;
+
+}
+.buttons3{
+    background-color: rgb(209, 207, 207);
+    height: 20%;
+    max-width: 90%;
+    margin-top: 5%;
+}
+button{
+    height: 50px;
+    width: 20%;
+    font-weight: bolder;
+    background-color: white;
+    border: 0px solid;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:rgb(0, 71, 171) ;
+    color: white;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 768px){
+   .logo{
+    text-align: center;
+    margin-left: 50px;
+   }
+   .navbar{
+    display: flex;
+    flex-direction: column;
+   }
+   .nav{
+    text-align: center;
+    margin-left: 50px;
+   }
+   .content{
+    flex-direction: column;
+    text-align: center;
+   }
+   .buttons{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+    }
+
+    #watch{
+        margin-top: 30px;
+        margin-left: -50px;
+    }
+    #getstarted{
+        margin-left: -20px;
+    }
+    
+    #play{
+        margin-top: 30px; 
+        margin-right: -400px;
+        padding-right: 30px;
+    }
+    .white{
+        display: flex;
+        flex-direction: column;
+    }
+    h3{
+        margin-left: 80px;
+    }
+    #heading2{
+        margin-left: 70px;
+    }
+    .buttons3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 70px;
+        margin-right: 70px;
+        padding-bottom: 20px;
+    }
+    button{
+        text-align: center;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    p{
+        margin-left: 60px;
+    }
+}
